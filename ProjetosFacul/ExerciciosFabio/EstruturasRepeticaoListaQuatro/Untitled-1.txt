@@ -1,0 +1,38 @@
+
+Algoritmo ImprimeNumeros;  
+Var numeroInicial, numeroFinal: inteiro; 
+Inicio 
+    controle=1;
+    Escreva(“Digite o numero inicial:”);
+    Leia(numeroInicial);
+
+    Escreva(“Digite numero final:”);
+    Leia(numeroFinal);
+
+    Enquanto ( numeroInicial < numeroFinal) faça    
+        Escreva(numeroInicial);
+        numeroInicial++;
+    fimenquanto;
+    
+ Fim
+
+ Algoritmo MediaAlunos;  
+Var notaP1, notaP2, media: real; 
+Var controle: inteiro; 
+
+Inicio 
+    controle=1;
+    Para controle de 1 até 10 faça
+        Escreva(“Digite o numero inicial:”);
+        Leia(numeroInicial);
+    Fimpara; 
+
+    Enquanto ( controle < 10) faça  
+
+     
+
+        Escreva(produto);
+        numeroInicial++;
+    fimenquanto;
+    
+ Fim
