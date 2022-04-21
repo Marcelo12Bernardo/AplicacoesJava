@@ -13,7 +13,6 @@ import java.util.Scanner;
 
 public class AprovacaoDoNovoProduto{
     public static void main(String[] args ){
-
         Scanner leitorTeclado =new Scanner(System.in);
         String  sexo, resposta;
         int totalSim=0, totalNao=0, respostasInvalidas=0, totalMulheres=0, totMulhereRespS=0;
@@ -21,7 +20,6 @@ public class AprovacaoDoNovoProduto{
         float porcentagemMulheresSim=0, porcentagemHomensNao=0;
         System.out.print("Programa para verificar se um produto é ou não aprovado pelos funcionarios!");
         for(int i=1;i<=2000;i++){
-
             System.out.print("Informe sexo M ou F: ");
             sexo = leitorTeclado.next();
             System.out.print("Voce gostou do novo produto? S ou N: ");
@@ -37,7 +35,6 @@ public class AprovacaoDoNovoProduto{
                 {
                     totalHomens++;
                 }
-
             }else if(resposta.equalsIgnoreCase("N"))
             {
                 totalNao++;
@@ -49,7 +46,6 @@ public class AprovacaoDoNovoProduto{
                     totalHomens++;
                     totHomRespNao++;
                 }
-
             }
             else respostasInvalidas++;
         }

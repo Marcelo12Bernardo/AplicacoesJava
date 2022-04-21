@@ -16,7 +16,6 @@ public class VerificaPrimos{
         System.out.print("Informe o numero N: ");
         numeroN = leitorTeclado.nextInt();
 
-
         do{
             cont++;
             if(((numeroN%cont)==0)&& (cont!=numeroN)){

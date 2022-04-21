@@ -43,7 +43,5 @@ public class MediaAlturaTurma{
         System.out.println("A altura media das mulheres e: "+mediaMulheres);
         System.out.println("A maior altura digitada foi: "+maiorAltura);
         System.out.println("A menor altura digitada foi: "+menorAltura);
-       
-
     }
 }

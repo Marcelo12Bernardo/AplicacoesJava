@@ -1,5 +1,9 @@
 /*
- Escreva um programa que determine se um dado numero N (digitado pelo usuario) e primo ou nao
+ Prepare um algoritmo para perguntar a um certo numero de pessoas seu nome, sexo, peso e nacionalidade.
+Informe:
+(a) A media de peso destas pessoas
+(b) O nome da pessoa mais pesada
+(c) O nome da mulher brasileira mais leve
 */
 import java.util.Scanner;
 

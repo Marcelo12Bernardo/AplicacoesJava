@@ -29,15 +29,11 @@ public class SomaParesImpares {
                 totalImpar+=numero;
                 if(numero<menorImpar){menorImpar=numero;}
             }
-
             System.out.print("Informe um numero: ");
             numero = leitorDoTeclado.nextInt();
         }
-
         mediaImpar=totalImpar/contImpar;
         mediaPar=totalPar/contPar;
-
-
         System.out.println("Total de numeros PAR: "+contPar);
         System.out.println("Total de numeros IMPAR: "+contImpar);
         System.out.println("Media dos numeros PARES: "+mediaPar);
