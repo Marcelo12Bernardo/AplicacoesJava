@@ -12,8 +12,7 @@ public class EmbaralhaString {
         tamanhoPalavra=palavraDigitada.length();
         
         palavraEmbaralhada=embaralhaString(palavraDigitada,tamanhoPalavra);
-        System.out.print("Palavra embaralhada: "+palavraEmbaralhada);
-        System.out.println("");
+        System.out.println("Palavra embaralhada: "+palavraEmbaralhada);
     }
     static char[] converteStringpraChar(String palavra, int tamanoDoVetor) {
         char vetorChar[] = new char[tamanoDoVetor];
